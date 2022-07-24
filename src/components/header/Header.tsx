@@ -1,5 +1,9 @@
-import React from "react";
+import { Box, Grid, styled } from "@mui/material";
+
+const ContentHeader = styled(Grid)({
+  backgroundColor: "#14161a",
+});
 
 export const Header = () => {
-  return <div>Header</div>;
+  return <ContentHeader>Header</ContentHeader>;
 };
